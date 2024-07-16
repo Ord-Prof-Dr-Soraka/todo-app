@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6bc7e41cfc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="todo-app">
+            <h2>Yapılacaklar Listesi <i class="fa-solid fa-list"></i></h2>
+            <div class="row">
+                <input type="text" placeholder="Yapılacak işi ekle..." id="input-box" onkeypress="enterTask(event)">
+                <button onclick="addTask()">Ekle</button>
+            </div>
+            <ul id="list-container">
+                <!-- <li class="checked">Task 1</li>
+                <li>Task 2</li>
+                <li>Task 3</li> -->
+            </ul>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

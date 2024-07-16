@@ -11,4 +11,5 @@ Bu proje, kullanıcıların yapılacaklar listesi oluşturmasını, düzenlemesi
 ## Kurulum
 
 Projeyi yerel bilgisayarınıza klonlayarak çalıştırabilirsiniz.
+
 `git clone https://github.com/Ord-Prof-Dr-Soraka/todo-app.git`
